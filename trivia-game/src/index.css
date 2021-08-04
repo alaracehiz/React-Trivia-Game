@@ -1,0 +1,80 @@
+
+body {
+  background-image: url('https://img.wallpapersafari.com/desktop/1920/1080/37/32/UsqMAc.jpg');
+  background-color: green;
+}
+.answer :hover{
+ cursor: pointer;
+}
+
+.card {
+  background-image: url('https://wallpapercave.com/wp/wp2835925.png');
+}
+
+.button-submit :hover{ 
+ font-size: 2.0rem;
+}
+
+.button-submit {
+ width: 100%;
+ height: 50px;
+}
+
+.inputText {
+ width: 100%;
+}
+
+.loader {
+ position: fixed;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ transform: -webkit-translate(-50%, -50%);
+ transform: -moz-translate(-50%, -50%);
+ transform: -ms-translate(-50%, -50%);
+ color: darkred;
+}
+
+.question {
+ margin-top: 15px;
+ margin-left: 25px;
+ height: 30px;
+}
+
+.questionText {
+ font-size: 1.5rem;
+ font-weight: bold;
+}
+
+.questionContent {
+ margin-top: 100px;
+}
+
+.answer :hover{
+ font-size: 1.9rem;
+}
+
+.answer {
+ margin-bottom: 30px;
+ border-bottom: 1px solid blue;
+ font-size: 1.5rem;
+}
+
+.answerq {
+ margin-bottom: 30px;
+ border-bottom: 1px solid blue;
+ font-size: 1.52rem;
+}
+
+.selected {
+ color: rgb(33, 121, 194);
+ font-weight: bold;
+}
+
+.correct {
+ color: rgb(17, 218, 17);
+}
+
+.wrong {
+ color: rgb(218, 17, 17);
+}
